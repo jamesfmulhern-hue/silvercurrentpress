@@ -5478,3 +5478,117 @@ main p {
   margin-left: auto !important;
   margin-right: auto !important;
 }
+
+/* ==========================================================================
+   Currents — Essay-card and per-essay-page styles
+   ========================================================================== */
+
+/* Card-style entry on the Currents index */
+.entry.entry-card {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.entry.entry-card:hover {
+  transform: translateY(-1px);
+}
+
+/* Title as a link inside a card */
+.entry-title-link {
+  color: inherit;
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: border-color 0.2s ease, color 0.2s ease;
+}
+
+.entry-title-link:hover,
+.entry-title-link:focus {
+  color: var(--verdigris-deep, #01696F);
+  border-bottom-color: currentColor;
+}
+
+html[data-theme="dark"] .entry-title-link:hover,
+html[data-theme="dark"] .entry-title-link:focus {
+  color: var(--verdigris, #4F98A3);
+}
+
+/* "Read the full essay →" call to action */
+.entry-more {
+  margin-top: 16px !important;
+  font-family: 'Inter', system-ui, sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+/* Per-essay page: body prose */
+.essay-body p {
+  font-family: 'Lora', Georgia, serif;
+  font-size: 18px;
+  line-height: 1.75;
+  margin: 0 0 1.3em;
+  max-width: 640px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.essay-body p.signed {
+  font-style: italic;
+  text-align: right;
+  margin-top: 1.8em;
+  color: var(--muted);
+}
+
+.essay-body em, .essay-body i {
+  font-style: italic;
+}
+
+.essay-body blockquote {
+  margin: 1.5em auto;
+  max-width: 560px;
+  padding: 0.4em 1.2em;
+  border-left: 3px solid var(--gold, #6E4A0E);
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-size: 20px;
+  font-style: italic;
+  line-height: 1.55;
+  color: var(--muted);
+}
+
+.essay-body h2,
+.essay-body h3 {
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  text-align: center;
+  margin: 2em auto 0.6em;
+  color: var(--ink, #10182E);
+}
+
+html[data-theme="dark"] .essay-body h2,
+html[data-theme="dark"] .essay-body h3 {
+  color: var(--paper, #F0EBD9);
+}
+
+.essay-body h2 { font-size: 30px; font-weight: 700; letter-spacing: 0.01em; }
+.essay-body h3 { font-size: 22px; font-weight: 700; letter-spacing: 0.02em; }
+
+/* Return-to-Currents ribbon at the bottom of essay pages */
+.return-to-currents {
+  padding: 20px;
+}
+
+.return-to-currents a.gilt-link {
+  font-family: 'Inter', system-ui, sans-serif;
+  font-weight: 700;
+  font-size: 13px;
+  color: var(--gold, #6E4A0E);
+  border-bottom: 1px solid transparent;
+  transition: border-color 0.2s ease;
+}
+
+.return-to-currents a.gilt-link:hover {
+  border-bottom-color: currentColor;
+}
+
+html[data-theme="dark"] .return-to-currents a.gilt-link {
+  color: var(--gold-strong, #C9A24B);
+}

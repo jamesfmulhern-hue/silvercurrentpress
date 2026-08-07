@@ -1,15 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://silvercurrentpress.com/</loc><lastmod>2026-07-19</lastmod><changefreq>monthly</changefreq><priority>1.0</priority></url>
-  <url><loc>https://silvercurrentpress.com/about.html</loc><lastmod>2026-07-19</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
-  <url><loc>https://silvercurrentpress.com/catalogue.html</loc><lastmod>2026-07-19</lastmod><changefreq>monthly</changefreq><priority>0.95</priority></url>
-  <url><loc>https://silvercurrentpress.com/services.html</loc><lastmod>2026-07-19</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
-  <url><loc>https://silvercurrentpress.com/currents.html</loc><lastmod>2026-07-19</lastmod><changefreq>monthly</changefreq><priority>0.85</priority></url>
-  <url><loc>https://silvercurrentpress.com/journal.html</loc><lastmod>2026-07-19</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://silvercurrentpress.com/submissions.html</loc><lastmod>2026-07-19</lastmod><changefreq>monthly</changefreq><priority>0.85</priority></url>
-  <url><loc>https://silvercurrentpress.com/contact.html</loc><lastmod>2026-07-19</lastmod><changefreq>monthly</changefreq><priority>0.85</priority></url>
-  <url><loc>https://silvercurrentpress.com/accessibility.html</loc><lastmod>2026-07-19</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
-  <url><loc>https://silvercurrentpress.com/privacy.html</loc><lastmod>2026-07-19</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
-  <url><loc>https://silvercurrentpress.com/terms.html</loc><lastmod>2026-07-19</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
-  <url><loc>https://silvercurrentpress.com/dmca.html</loc><lastmod>2026-07-19</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://silvercurrentpress.com/</loc><lastmod>2026-08-07</lastmod><changefreq>monthly</changefreq><priority>1.0</priority></url>
+  <url><loc>https://silvercurrentpress.com/about.html</loc><lastmod>2026-08-07</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://silvercurrentpress.com/catalogue.html</loc><lastmod>2026-08-07</lastmod><changefreq>monthly</changefreq><priority>0.95</priority></url>
+  <url><loc>https://silvercurrentpress.com/services.html</loc><lastmod>2026-08-07</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://silvercurrentpress.com/currents.html</loc><lastmod>2026-08-07</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://silvercurrentpress.com/currents/fitzgerald-edge-of-a-sentence.html</loc><lastmod>2026-04-15</lastmod><changefreq>yearly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://silvercurrentpress.com/currents/a-book-worth-knowing-maxwell.html</loc><lastmod>2026-02-10</lastmod><changefreq>yearly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://silvercurrentpress.com/journal.html</loc><lastmod>2026-08-07</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://silvercurrentpress.com/submissions.html</loc><lastmod>2026-08-07</lastmod><changefreq>monthly</changefreq><priority>0.85</priority></url>
+  <url><loc>https://silvercurrentpress.com/contact.html</loc><lastmod>2026-08-07</lastmod><changefreq>monthly</changefreq><priority>0.85</priority></url>
+  <url><loc>https://silvercurrentpress.com/accessibility.html</loc><lastmod>2026-08-07</lastmod><changefreq>yearly</changefreq><priority>0.4</priority></url>
+  <url><loc>https://silvercurrentpress.com/privacy.html</loc><lastmod>2026-08-07</lastmod><changefreq>yearly</changefreq><priority>0.4</priority></url>
+  <url><loc>https://silvercurrentpress.com/terms.html</loc><lastmod>2026-08-07</lastmod><changefreq>yearly</changefreq><priority>0.4</priority></url>
+  <url><loc>https://silvercurrentpress.com/dmca.html</loc><lastmod>2026-08-07</lastmod><changefreq>yearly</changefreq><priority>0.4</priority></url>
 </urlset>
