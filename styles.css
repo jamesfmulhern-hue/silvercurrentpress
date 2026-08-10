@@ -5592,3 +5592,35 @@ html[data-theme="dark"] .essay-body h3 {
 html[data-theme="dark"] .return-to-currents a.gilt-link {
   color: var(--gold-strong, #C9A24B);
 }
+
+/* Currents — section break within an essay body */
+.essay-body hr.soft-rule {
+  border: 0;
+  height: 20px;
+  margin: 2em auto;
+  max-width: 240px;
+  background: none;
+  text-align: center;
+  overflow: visible;
+  position: relative;
+}
+.essay-body hr.soft-rule::before {
+  content: "* * *";
+  display: block;
+  color: var(--gold, #6E4A0E);
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-size: 20px;
+  letter-spacing: 0.6em;
+  line-height: 1;
+}
+
+/* Currents — blockquotes with citations */
+.essay-body blockquote cite {
+  display: block;
+  margin-top: 0.5em;
+  font-size: 15px;
+  font-family: 'Inter', system-ui, sans-serif;
+  font-style: normal;
+  color: var(--muted, #5A5A5A);
+  letter-spacing: 0.02em;
+}
