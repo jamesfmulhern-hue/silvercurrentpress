@@ -5627,8 +5627,9 @@ html[data-theme="dark"] .return-to-currents a.gilt-link {
 
 /* Elsewhere on the Web — link directory ------------------------ */
 .elsewhere-group {
-  max-width: 880px;
+  max-width: 780px;
   margin: 0 auto 56px;
+  padding: 0 8px;
 }
 .elsewhere-group .eyebrow {
   margin-bottom: 22px;
