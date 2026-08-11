@@ -5624,3 +5624,62 @@ html[data-theme="dark"] .return-to-currents a.gilt-link {
   color: var(--muted, #5A5A5A);
   letter-spacing: 0.02em;
 }
+
+/* Elsewhere on the Web — link directory ------------------------ */
+.elsewhere-group {
+  max-width: 880px;
+  margin: 0 auto 56px;
+}
+.elsewhere-group .eyebrow {
+  margin-bottom: 22px;
+}
+.elsewhere-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 18px;
+}
+@media (max-width: 640px) {
+  .elsewhere-grid { grid-template-columns: 1fr; }
+}
+.elsewhere-card {
+  display: block;
+  padding: 24px 26px;
+  border: 1px solid var(--silver);
+  border-radius: 2px;
+  text-decoration: none;
+  background: transparent;
+  transition: border-color 0.2s ease, transform 0.2s ease, background 0.2s ease;
+}
+.elsewhere-card:hover {
+  border-color: var(--oxblood);
+  transform: translateY(-2px);
+  background: rgba(126, 26, 40, 0.04);
+}
+html[data-theme="dark"] .elsewhere-card:hover {
+  background: rgba(255, 110, 120, 0.06);
+}
+.elsewhere-title {
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: 21px;
+  color: var(--ink);
+  margin: 0 0 8px;
+}
+.elsewhere-card:hover .elsewhere-title { color: var(--oxblood); }
+html[data-theme="dark"] .elsewhere-card:hover .elsewhere-title { color: var(--oxblood-bright); }
+.elsewhere-desc {
+  font-family: var(--font-body);
+  font-size: 14.5px;
+  color: var(--ink-soft, var(--muted));
+  margin: 0 0 14px;
+  line-height: 1.5;
+}
+.elsewhere-url {
+  font-family: var(--font-sans);
+  font-weight: 500;
+  font-size: 10.5px;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin: 0;
+}
