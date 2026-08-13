@@ -5644,12 +5644,14 @@ html[data-theme="dark"] .return-to-currents a.gilt-link {
 }
 .elsewhere-card {
   display: block;
+  box-sizing: border-box;
   padding: 24px 26px;
   border: 1px solid var(--silver);
   border-radius: 2px;
   text-decoration: none;
   background: transparent;
   transition: border-color 0.2s ease, transform 0.2s ease, background 0.2s ease;
+  overflow: hidden;
 }
 .elsewhere-card:hover {
   border-color: var(--oxblood);
@@ -5683,4 +5685,6 @@ html[data-theme="dark"] .elsewhere-card:hover .elsewhere-title { color: var(--ox
   text-transform: uppercase;
   color: var(--muted);
   margin: 0;
+  overflow-wrap: break-word;
+  word-break: break-word;
 }
